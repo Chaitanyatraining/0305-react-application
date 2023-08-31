@@ -1,0 +1,11 @@
+Folder structure
+virtual DOM
+    - diffing algorithm
+    - Re-conciliation algorithm
+what is render?
+what is JSX?
+what is Components?
+    - Types of Components
+what is Props?
+what is State?
+difference between props and state?
