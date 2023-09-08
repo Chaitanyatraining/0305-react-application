@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
- class ClassComp extends Component{
+ export class ClassComp extends Component{
     constructor(props){
         super(props)
         console.log(props)
@@ -17,4 +17,3 @@ import React, { Component } from 'react'
     }
  }
 
- export default ClassComp

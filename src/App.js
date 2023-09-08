@@ -5,7 +5,8 @@ import ListandKeys from "./Components/ListandKeys";
 import ComponentA from "./ComponentA";
 import ClassComp from "./Components/ClassComp";
 import ConditionalRendering from "./Components/ConditionalRendering";
-import { ContactUs } from "./Components/ContactUs";
+import CounterApp from "./Components/CounterApp";
+import ContactUs from './Components/ContactUs'
 const users = [
   {
       "id": 1,
@@ -80,6 +81,7 @@ function App() {
       {/* <ComponentA courseName="ReactJs" duration="3 Months" data={users} />
       <ClassComp courseName="ReactJs" duration="3 Months"  /> */}
       {/* <ConditionalRendering /> */}
+      {/* <CounterApp /> */}
       <ContactUs />
     </div>
   )
