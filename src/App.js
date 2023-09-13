@@ -7,6 +7,7 @@ import ClassComp from "./Components/ClassComp";
 import ConditionalRendering from "./Components/ConditionalRendering";
 import CounterApp from "./Components/CounterApp";
 import ContactUs from './Components/ContactUs'
+import Routing from "./Components/Routing";
 const users = [
   {
       "id": 1,
@@ -74,15 +75,16 @@ function App() {
   return (
     <div className="appdiv">
       {/* <h2>Welcome to ReactJs</h2>
-      <h4>This is App Comp</h4>
-      <Header /> */}
+      <h4>This is App Comp</h4> */}
+      <Header />
+      <Routing />
       {/* <Stylings /> */}
       {/* <ListandKeys /> */}
       {/* <ComponentA courseName="ReactJs" duration="3 Months" data={users} />
       <ClassComp courseName="ReactJs" duration="3 Months"  /> */}
       {/* <ConditionalRendering /> */}
       {/* <CounterApp /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
     </div>
   )
 }
