@@ -4,11 +4,8 @@ import React, { Component } from 'react'
     constructor(props){
         super(props)
         
-    //  {courseName, duration} = this.props
 
-        console.log(props)
     }
-    //  {courseName, duration} = this.props
 
     render(){
         return(

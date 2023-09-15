@@ -3,6 +3,7 @@ import ContactUs from './ContactUs'
 
 class LifeCycleMethods extends Component {
     constructor() {
+        //do not cause Sideeffects, making api calls
         super()
         console.log('constructor Executed')
     }
@@ -12,6 +13,7 @@ class LifeCycleMethods extends Component {
     }
 
     static getDerivedStateFromProps(props, state) {
+        //do not cause Sideeffects, making api calls
         console.log('static getDerivedStateFromProps executed')
         return null
     }

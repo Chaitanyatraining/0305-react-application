@@ -27,6 +27,9 @@ function Header() {
                                 <Link to='/lifecycle' class="nav-link">LifeCycle Methods</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/pagination' class="nav-link">Pagination</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='/contactUs' class="nav-link">ContactUs</Link>
                             </li>
                             <li class="nav-item">

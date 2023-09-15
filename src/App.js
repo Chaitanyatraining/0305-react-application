@@ -3,11 +3,12 @@ import Header from "./Header";
 import Stylings from "./Stylings/Stylings";
 import ListandKeys from "./Components/ListandKeys";
 import ComponentA from "./ComponentA";
-import ClassComp from "./Components/ClassComp";
 import ConditionalRendering from "./Components/ConditionalRendering";
 import CounterApp from "./Components/CounterApp";
 import ContactUs from './Components/ContactUs'
 import Routing from "./Components/Routing";
+import ClassComp from "./Components/ClassComp";
+
 const users = [
   {
       "id": 1,
@@ -80,8 +81,8 @@ function App() {
       <Routing />
       {/* <Stylings /> */}
       {/* <ListandKeys /> */}
-      {/* <ComponentA courseName="ReactJs" duration="3 Months" data={users} />
-      <ClassComp courseName="ReactJs" duration="3 Months"  /> */}
+      {/* <ComponentA courseName="ReactJs" duration="3 Months" data={users} /> */}
+      {/* <ClassComp courseName="ReactJs" duration="3 Months"  /> */}
       {/* <ConditionalRendering /> */}
       {/* <CounterApp /> */}
       {/* <ContactUs /> */}
