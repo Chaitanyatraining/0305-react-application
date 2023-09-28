@@ -33,6 +33,21 @@ function Header() {
                                 <Link to='/contactUs' class="nav-link">ContactUs</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/usestatecounter' class="nav-link">Counter App</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/funcuserdata' class="nav-link">userData</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/funcpagination' class="nav-link">FuncPagination</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/userefhook' class="nav-link">useRefHook</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/usecontexthook' class="nav-link">usecontexthook</Link>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                             </li>
                         </ul>
